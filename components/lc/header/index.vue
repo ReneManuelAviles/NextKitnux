@@ -27,6 +27,16 @@ const drawer = ref(null);
                   >Basic Components</NuxtLink
                 >
               </li>
+              <li class="nav-item">
+                <NuxtLink class="nav-link" to="/mascotas"
+                  >Mascotas</NuxtLink
+                >
+              </li>
+              <li class="nav-item">
+                <NuxtLink class="nav-link" to="/login"
+                  >Login</NuxtLink
+                >
+              </li>
               <li class="nav-item d-md-flex d-sm-none">
                 <!-- login-regiter -->
                 <v-btn
